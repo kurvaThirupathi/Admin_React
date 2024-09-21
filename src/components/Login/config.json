@@ -1,0 +1,28 @@
+[
+    {
+        "labelName":"Email Id",
+        "type":"text",
+        "name":"userId",
+        "id":"userId",
+        "placeholder":"Email Id",
+        "errorMsg":"",
+        "isRequired":true,
+        "hasError":false,
+        "value":"",
+        "criteria":["Required","Email"]
+
+
+    },
+    {
+        "labelName":"Password",
+        "type":"password",
+        "name":"pwd",
+        "id":"pwd",
+        "placeholder":"Password",
+        "errorMsg":"",
+        "isRequired":true,
+        "hasError":false,
+        "value":"",
+        "criteria":["Required","Min5Char"]
+    }
+]

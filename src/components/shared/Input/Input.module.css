@@ -1,0 +1,55 @@
+.loginSection{
+	background:#fff;
+	box-shadow: 2px 1px 6px 1px #c9c0c0;
+	padding:10px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    transform: translate(0px, 40px);
+   
+}
+.errorMsg{
+    font-size:13px;
+    color:red;
+    margin-top:5px;
+}
+
+.loginFormData{
+    box-shadow: 3px 9px 22px -1px #c9c0c0;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding-bottom: 10px;
+  }
+  .labelNames{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  .labelinput{
+    /*width: 65%;*/
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .btnView{
+    background-color: #b520e6 !important;
+    color: #fff !important;
+    font-weight:600;
+    font-size: 15px;
+    margin-bottom:5px;
+  }
+  .btnView:hover{
+    color: #fff;
+  }
+  .btnView:focus{
+    background-color: #b520e6;
+  }
+  .forgotpassword{
+    /* width: 65%;*/
+   text-align: right;
+   font-size: 14px;
+   margin-top: 10px;
+   font-weight: 500;
+   }
+   .forgotpassword > a{
+     color: #b520e6;
+   }
